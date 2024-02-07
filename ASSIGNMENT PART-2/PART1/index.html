@@ -1,7 +1,7 @@
 <!--
   Name: Jordy Francis
   File: Assignment part-2
-  Date - 2024-02--6
+  Date - 2024-02-6
   This is the part 1 of assignment 2 where i was given a mostly-finished Mozilla splash page
   in which where i have to add some images and videos.
 
@@ -114,10 +114,9 @@
     
     <header>
       <h1>Mozilla</h1>
-      <img
+
+      <img src="firefoxlogo 120.png" alt="Firefoxlogo">
   
-    src="firefoxlogo 120.png"/>
-    />
       <!-- insert <img> element, link to the small
           version of the Firefox logo -->
 
@@ -142,34 +141,30 @@
       <div class="further-info">
         <!-- insert images with srcsets and sizes -->
         <a href="https://www.mozilla.org/en-US/firefox/new/">
-          <img
-        
-          src="firefox_logo-only_RGB.png"
-          
-  
-          />
+          <img srcset="firefox_logo-400.png 400w,firefox_logo 120.png 120w" sizes="(max-width: 400px) 120px" src="firefox_logo-400.png"
+           alt="firefox_logo400">
         </a>
         <a href="https://www.mozilla.org/">
-          <img
-          src="mozilla-dinosaur-head (1).png"/>
+          <img srcset="mozilla-dinosaur-head 400.png 400w,mozilla-dinosaur-head 120.png 120w" sizes="(max-width: 400px) 120px" src="mozilla-dinosaur-head 400.png" alt="Mozilla-dragon head">
+          
         </a>
         <a href="https://addons.mozilla.org/">
-          <img src="firefox-addons.png"/>
+          <img srcset="firefox-addons400.png 400w,firefox-addons 120.png 120w" sizes="(max-width: 400px) 120px" src="firefox-addons400.png" alt="firefox addon">
+          
+
         </a>
         <a href="https://developer.mozilla.org/en-US/">
 
-          <img
-          src="mdn.svg">
+          <img src="mdn.svg">
         </a>
         <div class="clearfix"></div>
       </div>
 
       <div class="red-panda">
         <picture>
-          <img src="red-panda.jpg"/>
+          <img srcset="red-panda.png 1200w,red-panda 600.png 600w" sizes="(max-width: 1200px) 600w "  alt="the red-panda">
+        </picture>
 
-        </picture> 
-          
         
         <!-- insert picture element -->
       </div>

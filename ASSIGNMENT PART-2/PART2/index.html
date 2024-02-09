@@ -30,14 +30,21 @@
     
     <table >
       
+      
         
       <caption>Data about the planets of our solar system (Planetary facts taken from <a href="http://nssdc.gsfc.nasa.gov/planetary/factsheet/">Nasa's Planetary Fact Sheet - Metric</a>).</caption>
-        
+      <colgroup>
+        <col span="2">
+        <col style="border: solid  black">
+        <col span="9">
+      </colgroup>
        <!--
         Now i created the row using the <tr> tag. I also created the heading which is the name and planets name with 
         table heading tag. 
-       -->    
+       --> 
+       <thead>
     <tr>
+      
       
 
         <td colspan="2"></td>
@@ -52,6 +59,8 @@
            <th>Number of moons</th>
            <th>Notes</th>
     </tr>
+  </thead>
+    
   
   <tbody>
     <tr>
@@ -118,7 +127,7 @@
   
   <tr>
     <!--
-      I created 
+      I created a rowspan of 4 and 2 for jovian planets and gas giants according to the requiremnts.
     -->
     <th  rowspan="4">Jovian planets</th>
     <th rowspan="2">Gas giants</th>

@@ -1,0 +1,26 @@
+html {
+    font-family: sans-serif;
+    
+  }
+  
+  /* Your CSS below here */
+  .large-box {
+    line-height: 200px;
+    width: 200px;
+    inline-size: 10em;
+    margin-left: auto;
+    margin-right: auto;
+    margin: auto;
+    font-size: 1.07rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: red;
+    text-shadow: 1px 1px 1px 1px black;
+    border-radius: 15px;
+    border: 1px brown;
+    color: azure;
+    text-shadow: 1px;
+    
+  }

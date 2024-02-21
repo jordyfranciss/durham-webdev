@@ -5,7 +5,7 @@ html {
   
   /* Your CSS below here */
   .large-box {
-    line-height: 200px;
+    line-height: 8.5;
     width: 200px;
     inline-size: 10em;
     margin-left: auto;
@@ -22,5 +22,6 @@ html {
     border: 1px solid brown;
     color: azure;
     text-shadow: 1px;
+    background-image: linear-gradient( to top left,rgba(0,0,0,0.2),rgba(0,0,0,0.2) 30%,rgba(0,0,0,0));
     
   }

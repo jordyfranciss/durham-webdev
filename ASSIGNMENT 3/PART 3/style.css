@@ -49,6 +49,8 @@ This is the part 3 of assignment 3 where i was given a html and css and i have
   }
   
   /* WRITE YOUR CODE BELOW HERE */
+  /*
+  Adding font using the font face*/
   @font-face {
     font-family: 'Aleo sans-seriff';
     src: url(Aleo-Italic.woff2) format(woff2);
@@ -66,7 +68,8 @@ This is the part 3 of assignment 3 where i was given a html and css and i have
     font-family:  "Aleo",sans-serif;
     font-size: 10px;
   }
-
+/*
+adding fonts to headers*/
   h1,h2{
     font-family:"Miniya",serif ;
     letter-spacing: 2px;
@@ -133,7 +136,8 @@ ul{
 ol{
   list-style-type: upper-latin;
 }
-
+/*
+Creating the navigation bar*/
 nav{
   float:right;
 }
@@ -160,7 +164,7 @@ nav li a{
   font-size: 1.6rem;
   border:2px solid brown;
   border-radius: 5px;
-  transition: 0.3;
+  transition: all 0.3s ;
   text-align: center;
 
 }

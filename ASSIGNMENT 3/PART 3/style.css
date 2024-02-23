@@ -1,4 +1,10 @@
 /* General setup */
+/*
+Name - Jordy Francis
+file - style.css
+Date - 2024-02-21
+This is the part 3 of assignment 3 where i was given a html and css and i have
+*/
 
 * {
     box-sizing: border-box;
@@ -43,3 +49,16 @@
   }
   
   /* WRITE YOUR CODE BELOW HERE */
+  @font-face {
+    font-family: 'serif';
+    src: url(Aleo-Italic.woff2);
+    src: url(Aleo-LightItalic.woff2) format(woff2);
+    font-weight: normal;
+  }
+
+  @font-face{
+    font-family: sans-serif;
+    src:url(Minya\ Nouvelle\ Bd.woff2) format(woff2);
+    src:url(Minya\ Nouvelle\ Bd\ It.woff2) format(woff2);
+    font-weight: normal;
+  }

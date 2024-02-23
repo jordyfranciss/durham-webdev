@@ -75,3 +75,96 @@ header,footer{
   border-top:5px solid brown;
   border-bottom: 5px solid brown;
 }
+h1{
+  font-size: 2.6rem;
+  text-align: center;
+  letter-spacing: 1.5px;
+  font-family: "Aleo",sans-serif;
+}
+h2{
+  font-size: 2rem;
+  letter-spacing: 0.5px;
+}
+p{
+  font-size: 1.4rem;
+}
+
+section>h2+p:first-of-type,
+section>h1+p:first-of-type{
+  text-indent: 20px;
+}
+ul,
+ol{
+  font-size: 1.5rem;
+}
+
+a{
+  font-size: 1.4rem;
+  color:brown;
+  text-decoration: underline;
+  position:relative
+}
+a[href="http"]{
+  padding-right: 19px;
+  background:url(external-link-52\ \(1\).png)no-repeat
+  100%0;
+  background-size: 16px 16px;
+}
+
+a:visited{
+  color:brown
+}
+a:focus,a:hover{
+  text-decoration: none;
+  color:burlywood
+}
+a:active{
+  color:aqua
+}
+
+ul,ol{
+  margin:1.6rem 0;
+}
+
+ul{
+  list-style-type: square;
+}
+
+ol{
+  list-style-type: upper-latin;
+}
+
+nav{
+  float:right;
+}
+
+nav ul{
+  padding:0;
+  margin:0;
+  list-style-type: none;
+
+}
+nav li{
+  margin-bottom: 10px;
+}
+nav li:first-child{
+  margin-top: 0;
+  
+}
+nav li a{
+  text-decoration: none;
+  display: block;
+  width: 150px;
+  padding: 10px;
+  color:blue;
+  font-size: 1.6rem;
+  border:2px solid brown;
+  border-radius: 5px;
+  transition: 0.3;
+  text-align: center;
+
+}
+nav li a hover{
+  color: white;
+  background: white;
+}

@@ -1,3 +1,13 @@
+/*
+ NAME - JORDY FRANCIS
+  STUDENT ID - 100934437
+  ASSIGNMENT 4
+  DESCRIPTION - This is assignment part 4 where i create a image gallery
+  using the given codes and also adding some codes in the javascript. I also use various steps like set attribute and
+  get attribute. 
+
+*/
+
 const displayedImage = document.querySelector('.displayed-img');
 const thumbBar = document.querySelector('.thumb-bar');
 

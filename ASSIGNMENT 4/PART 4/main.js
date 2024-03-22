@@ -1,3 +1,12 @@
+/*
+NAME - JORDY FRANCIS
+STUDENT ID - 100934437
+ASSIGNMENT 4 PART 4 -  This is my assignment 4 part 4 where i edite the bouncing balls by creatin a evil circle 
+where the bouncing gets eaten by the circle.
+
+
+*/ 
+
 // set up canvas
 
 const canvas = document.querySelector("canvas");

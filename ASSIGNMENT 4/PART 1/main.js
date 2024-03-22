@@ -29,8 +29,8 @@ function result() {
 
     newStory = newStory
     .replaceAll(":insertx:",xItem)
-    .replace(":inserty:", yItem)
-    .replace(":insertz:",zItem);
+    .replaceAll(":inserty:", yItem)
+    .replaceAll(":insertz:",zItem);
 
   if(customName.value !== '') {
     const name = customName.value;
@@ -41,7 +41,7 @@ function result() {
   if(document.getElementById("uk").checked) {
     const weight = `${Math.round(300 / 14)} stone`;
     const temperature = `${ Math.round((94 - 32) *(5/9))} centigrade`;
-    newStory = newStory.replaceAll("300 pounds", weight).replaceSAll("94 fahrenheit",temperature);
+    newStory = newStory.replaceAll("300 pounds", weight).replaceAll("94 fahrenheit",temperature);
 
   }
 

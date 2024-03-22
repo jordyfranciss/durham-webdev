@@ -1,3 +1,14 @@
+/*
+NAME - JORDY FRANCIS
+STUDENT ID  -100934437
+ASSIGNMENT 4 PART 4 - This is assignment 4 where i create  bouncing balls by creating a class and fucntions
+in the javascript codes.
+
+
+
+*/ 
+
+
 // setup canvas
 
 const canvas = document.querySelector("canvas");
